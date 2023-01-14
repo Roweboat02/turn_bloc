@@ -21,5 +21,8 @@ jobs:
         channel: 'stable'
     # Get flutter packages
     - run: flutter pub get
+    
+    - name: Run tests
+      run: flutter test
     # Build :D 
-    - run: flutter build web
+#     - run: flutter build web
