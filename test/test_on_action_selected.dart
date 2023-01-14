@@ -1,4 +1,4 @@
-part of 'test_bloc.dart';
+part of 'bloc_test.dart';
 
 void testOnActionSelected() {
   Action emptyAct = Action(0, [], []);
